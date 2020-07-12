@@ -1,0 +1,181 @@
+/*========================= 
+                               G O O D   L U C K
+                                                  =============================*/
+
+body {
+  font-family: "Do Hyeon", sans-serif;
+  color: white;
+  min-height: 100vh;
+  animation-name: example;
+  animation-duration: 60s;
+  display: grid;
+  place-content: center;
+  background-color: #d88771;
+  background-image: url("SVG/Thought.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 35% 60%;
+}
+@keyframes example {
+  0% {
+    background-color: #6d53e0;
+  }
+  10% {
+    background-color: #53e0d4;
+  }
+  20% {
+    background-color: #db4cb0;
+  }
+  35% {
+    background-color: #dbbc54;
+  }
+  50% {
+    background-color: #53a9db;
+  }
+  60% {
+    background-color: #3149d4;
+  }
+  75% {
+    background-color: #50d487;
+  }
+  100% {
+    background-color: #d88771;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 2rem;
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  cursor: pointer;
+  border: 2px solid white;
+  font-family: "Do Hyeon", sans-serif;
+}
+form button {
+  color: #d88771;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background-color: #d88771;
+  color: white;
+}
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.733);
+  outline: none;
+}
+form input:focus {
+  padding: 0.5rem 1.5rem;
+  transition: all 1s ease;
+  outline: none;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  min-width: 50%;
+  list-style: none;
+}
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.todo li {
+  flex: 1;
+}
+.trash-btn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.todo-item {
+  padding: 0rem 0.6rem;
+}
+.fa-trash {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+p {
+  border-right: solid 5px rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 40px;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  animation: animated-text 5s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 700px;
+  }
+}
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
