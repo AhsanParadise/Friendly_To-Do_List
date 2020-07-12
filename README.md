@@ -3,3 +3,5 @@ A to do list is an orderly way to organize how to do the things you want to do. 
 
 # Screenshot >>>
 ![alt text](https://github.com/AhsanParadise/Friendly_To-Do_List/blob/master/Screenshot1.jpg?raw=true)
+
+![alt text](https://github.com/AhsanParadise/Friendly_To-Do_List/blob/master/screenshot2.jpg?raw=true)
