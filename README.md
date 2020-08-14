@@ -9,7 +9,4 @@ A to do list is an orderly way to organize how to do the things you want to do. 
 2.You can also save your list in local storage.
 
 ![alt text](https://github.com/AhsanParadise/Friendly_To-Do_List/blob/master/screenshot2.jpg?raw=true)
-+
-++
-+++
-+++++
++++++++++++
