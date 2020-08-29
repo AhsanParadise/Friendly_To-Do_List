@@ -1,6 +1,7 @@
-# Friendly_To-Do_List
+<div align="center">
+<h1>Friendly_To-Do_List</h1>
 A to do list is an orderly way to organize how to do the things you want to do. So build a To-Do List App with JavaScript. You will love it because it's "The Friendly To-Do List".
-
+</div>
 <div align="center">  
   <!-- Version -->
     <img src="https://img.shields.io/badge/Version-1.0-blue.svg?longCache=true&style=flat-square"
