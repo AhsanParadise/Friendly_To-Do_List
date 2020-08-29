@@ -1,6 +1,18 @@
 # Friendly_To-Do_List
 A to do list is an orderly way to organize how to do the things you want to do. So build a To-Do List App with JavaScript. You will love it because it's "The Friendly To-Do List".
 
+<div align="center">  
+  <!-- Version -->
+    <img src="https://img.shields.io/badge/Version-3.0-blue.svg?longCache=true&style=flat-square"
+      alt="3.0" />
+    <!-- Last Updated -->
+    <img src="https://img.shields.io/badge/Updated-July 3, 2020-orange.svg?longCache=true&style=flat-square"
+      alt="_time_stamp_" />
+  <!-- Status -->
+    <img src="https://img.shields.io/badge/Status-Active-green.svg?longCache=true&style=flat-square"
+      alt="_time_stamp_" />
+  </div>
+
 ### 1. It has a lot features including background-color changing, list-animation, auto-typing.
 
 ![alt text](https://github.com/AhsanParadise/Friendly_To-Do_List/blob/master/Screenshot1.jpg?raw=true)
